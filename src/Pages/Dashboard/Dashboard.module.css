@@ -1,0 +1,234 @@
+.Dashboard{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.Dashboard h4{
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.cardarray{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow{
+    color: rgba(0, 71, 204, 0.2);
+    font-size: 1.3rem;
+}
+
+.arrow2{
+    color: rgba(0, 71, 204, 1);
+    font-size: 1.3rem;
+}
+.sectionrule{
+    background-color: rgba(0, 71, 204, 0.2);
+    width: 95%;
+    border: 0.5px solid rgba(0,71,255, 0.2) ;
+    margin: 1.5rem auto;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.mid{
+    background-color: rgba(0, 71, 204, 0.2);
+    border: 0.5px solid rgba(0,71,255, 0.2) ;
+    height: 160vh;
+    width: 1px;
+}
+.content_left{
+    width: 60%;
+}
+.content_right{
+    width: 35%;
+}
+
+.accounts{
+    background-color: #EFF2F8;
+    border-radius: 10px;
+    padding: 0.5rem;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accounts p:first-child{
+    color: white;
+    background-color: #0047CC;
+    width: 50%;
+    font-size: 0.6rem;
+    padding: 0.4rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.accounts p:last-child{
+    color:  #0047CC;
+    text-align: center;
+    font-size: 0.6rem;
+    width: 50%;
+}
+
+.recent{
+    font-size: 0.6rem;
+    color: #717171;
+    margin: 1rem 0;
+}
+
+.All{
+    background-color: #EFF2F8;
+    border-radius: 10px;
+    padding: 0.4rem 2rem 0.4rem 0.4rem  ;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0047CC;
+    font-size: 0.6rem;
+    width: 40%;
+}
+.All p:first-child{
+    color: white;
+    background-color: #0047CC;
+    width: 50%;
+    font-size: 0.6rem;
+    padding: 0.1rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.days{
+    display: flex;
+    align-items: center;
+}
+.days select{
+    border: none;
+    background-color: transparent;
+    color: #0047CC;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+.Balance{
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress{
+    background-color: red;
+    background-image: linear-gradient(to right, #4181F9 70%, #94B9FF 30%);
+    height: 15px;
+    margin: 1.4rem 0 0.5rem 0;
+
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.6rem;
+}
+.total p:first-child{
+    color: #4181F9;
+}
+.total p:last-child{
+    color: #94B9FF;
+}
+
+.content_left section {
+    width: 97%;
+    margin: 0 auto;
+}
+.content h6{
+    font-size: 0.6rem;
+    margin: 0.8rem 0;
+}
+
+.todayrule{
+    height: 40vh;
+    width: 1px; 
+    background-color: rgba(0, 71, 204, 0.2);
+    border: 0.5px solid rgba(0,71,255, 0.2) ;
+    margin-right: 1.5rem;
+}
+.septrule{
+    height: 70vh;
+    width: 1px; 
+    background-color: rgba(0, 71, 204, 0.2);
+    border: 0.5px solid rgba(0,71,255, 0.2) ;
+    margin-right: 1.5rem;
+}
+.content_left .list {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+.todaylist{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.sept{
+    color: rgba(38, 50, 56, 0.5);
+}
+
+.content_left button{
+    background-color: #0047CC;
+    color: white;
+    width: 35%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+}
+
+.actions{
+    background-color:  #EFF2F8;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+.actions h5{
+    margin-top: 10px;
+}
+.quickactions{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.upgrade{
+    background-color: #0047CC;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    margin: 2.5rem 0;
+}
+.upgrade p {
+    font-size: 0.6rem;
+    width: 90%;
+    color: #C7DEFF;
+}
+.upgrade h4 {
+    margin: 0.5rem 0;
+}
+.forward{
+    font-size: 1.5rem;
+}

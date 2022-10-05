@@ -1,0 +1,21 @@
+
+
+.layout{
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.sidebar{
+    background-color:  #EFF2F8;
+}
+
+.mainbar{
+    width: 86vw;
+    background-color:  #EFF2F8;
+}
+.dashboard_content{
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    min-height: 85vh;
+}

@@ -1,0 +1,28 @@
+.Header{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.Header h5{
+     width: 73%;
+     text-align: center;
+}
+.header_right{
+    width: 23%;
+    background-color: #0047CC;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.header_text{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.header_text p{
+    margin-right: 5px;
+}

@@ -1,0 +1,68 @@
+.card{
+    background: #0047CC;
+    border-radius: 5px;
+    width: 30%;
+    padding: 0.9rem;
+    height: 135px;
+    background-image: url(../../assets/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 70px;
+    background-position: top right;
+}
+.card_text{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: white;
+}
+
+.tier{
+    padding: 0.4rem 1rem;
+    color: #0047CC;
+    background-color: white;
+    border-radius: 5px;
+}
+.achieved{
+    display: flex;
+}
+
+sup{
+    font-size: 0.7rem;
+}
+
+.card h2{
+    font-size: 2rem;
+    color: white;
+    margin: 0.3rem 0;
+}
+.card img{
+    margin-left: 10px;
+}
+.interest{
+    color: rgba(38, 50, 56, 0.5);
+    font-size: 0.7rem;
+}
+.interest hr{
+    background-color: rgba(255,255,255, 0.2);
+    border: 1px solid rgba(255,255,255, 0.2) ;
+    margin-bottom: 0.3rem ;
+}
+
+.style1{
+    background-color: #D4D4FF;
+}
+.style1 h2, 
+.style2 h2 {
+    color: black;
+}
+
+.style1 h2 > img ,
+.style2 h2 > img {
+    width: 7%;
+    filter:brightness(0) invert(0);
+}
+.style2{
+    background-color:  #FFD4DF;
+}

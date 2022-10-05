@@ -1,0 +1,47 @@
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.7rem 0;
+}
+
+.details{
+    display: flex;
+    width: 65%;
+    margin-top: 10px;
+}
+.details img{
+    width: 100%;
+}
+.amounts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list p {
+    font-size: 0.7rem;
+    color: rgba(38, 50, 56, 0.5);
+    margin-left: 10px;
+}
+.list h6 {
+    font-size: 0.7rem;
+    color: #263238;
+    margin-left: 10px;
+}
+.ListItem hr{
+    background-color: #E7E7E7;
+    border:0.5px solid #E7E7E7;
+}
+
+.ListItem sup{
+    font-size: 0.4rem;
+}
+
+.ListItem p:last-child{
+    color:  #333333;
+}
+
+.ListItem span{
+    color: #FF8B44;
+}
